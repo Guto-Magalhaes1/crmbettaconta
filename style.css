@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+}
+
+header {
+  background-color: #1f3a57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  background-color: #e8f0fc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  min-height: 400px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.column h2 {
+  text-align: center;
+  color: #1f3a57;
+}
+
+.task {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 0 3px #999;
+  cursor: grab;
+}
